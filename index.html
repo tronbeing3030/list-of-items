@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <link rel="stylesheet" href="styles.css">
+    </link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <form class="form">
+                <div class="heading">
+                    <p><b>ENTER ITEMS</b></p>
+                </div>
+                <div class="input">
+                    <input type="text" id="input-box" placeholder="Enter items" required>
+                </div>
+                <div class="add">
+                    <button id="add" onclick="newlist()">Add to cart &#43</button>
+                </div>
+            </form>
+        </div>
+        <div class="right">
+            <p><b>LIST OF ITEMS</b></p>
+
+            <div class="list">
+                <div id="lists">
+                    <ol id="list-container">
+                        <!-- lists come over here! -->
+                    </ol>
+                </div>
+            </div>
+
+            <div class="r-buttons">
+                <div class="delete">
+                    <button class="del" onclick="del()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
