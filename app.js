@@ -15,5 +15,4 @@ function newlist() {
 
 function del() {
     listContainer.removeChild(listContainer.lastChild);
-    // alert("Working!!!");
 }
