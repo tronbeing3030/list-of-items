@@ -31,6 +31,7 @@ body {
     align-self: center;
     justify-items: center;
     color: white;
+    overflow-y: scroll;
 }
 
 form {
