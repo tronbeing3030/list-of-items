@@ -126,7 +126,7 @@ input::placeholder {
 }
 
 .del {
-    width: 40%;
+    width: 100%;
     height: 2.5em;
     color: #ef233c;
     text-align: center;
@@ -136,6 +136,7 @@ input::placeholder {
     border-color: #ef233c;
     border-style: solid;
     background: none;
+    padding: 0 1em ;
     margin: 0 0 1.5em 0;
 }
 
